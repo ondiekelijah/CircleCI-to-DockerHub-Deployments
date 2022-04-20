@@ -41,11 +41,11 @@ jobs:
             echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_USER_ID" --password-stdin
             docker push $DOCKER_HUB_USER_ID/$IMAGE_NAME:latest
 
-# workflows:
-#   version: 2
-#   build-master:
-#     jobs:
-#       - build
-#       - deploy:
-#           requires:
-#             - build
+workflows:
+  version: 2
+  build-master:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
