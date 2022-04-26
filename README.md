@@ -1,5 +1,7 @@
 # Automated Build and Deployments of Docker Images to Docker Hub via a CircleCI pipeline.
 
+[![CircleCI](https://circleci.com/gh/Dev-Elie/CircleCI-to-DockerHub-Deployments/tree/main.svg?style=svg)](https://circleci.com/gh/Dev-Elie/CircleCI-to-DockerHub-Deployments/tree/main)
+
 [**Session Recording availabe here**](https://stdntpartners-my.sharepoint.com/personal/ondiek_ochieng_studentambassadors_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fondiek%5Fochieng%5Fstudentambassadors%5Fcom%2FDocuments%2FRecordings%2FIntroduction%20to%20CI%5FCD%20with%20CircleCI%20%26%20Docker%20Hub%2D20220420%5F194042%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fondiek%5Fochieng%5Fstudentambassadors%5Fcom%2FDocuments%2FRecordings&ga=1)
 
 
